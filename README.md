@@ -12,4 +12,4 @@ Previously: consumer products past 500K users (Butter.us, Video.io), ML & data @
 
 `TypeScript` · `Python` · `LLM agents` · `x402 / on-chain` · `MCP`
 
-📫 jerry.nicolas@gmail.com · [LinkedIn](https://linkedin.com/in/legendjerry) · [@nclsjrry](https://x.com/nclsjrry)
+📫 tormine@gmail.com · [LinkedIn](https://linkedin.com/in/legendjerry) · [@nclsjrry](https://x.com/nclsjrry)
