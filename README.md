@@ -91,4 +91,4 @@ Before software: music, direction, photography, film, and client web builds. Con
 
 **Music, direction & film** — [When I Land](https://legendjerry.com/pile_portfolio/when-i-land/) · [Back Down](https://legendjerry.com/pile_portfolio/back-down/) · [Knights Parent](https://legendjerry.com/pile_portfolio/knights-parent/) · [Easy Difficulty](https://legendjerry.com/pile_portfolio/easy-difficulty/) · [THAT](https://legendjerry.com/pile_portfolio/that/) · [Linens Interlude](https://legendjerry.com/pile_portfolio/linens-interlude/) · [The Hardest Thing](https://legendjerry.com/pile_portfolio/the-hardest-thing/) · [Out to Space](https://legendjerry.com/pile_portfolio/out-to-space/) · [Murder](https://legendjerry.com/pile_portfolio/murder/) · [Done – The Movie](https://legendjerry.com/pile_portfolio/done-the-movie/) · [Simple Minds See Black & White…](https://legendjerry.com/pile_portfolio/simple-minds-see-black-white-complex-minds-see-grey/)
 
-> Many of these are private, research-only, or not yet live — some links are placeholders and may 404.
+> Many of these are private, research-only, or not yet live.
