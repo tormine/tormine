@@ -1,4 +1,4 @@
-## J. Nicolas LL.M.: building the action layer for AI agents
+## J. Nicolas LL.M.: building payment infra for agents.
 
 Founder of **[OneShot](https://oneshotagent.com)** and **[Freway](https://freway.ai)**.
 I build AI agents that do real work and get paid for it.
