@@ -84,8 +84,8 @@ SSO, auth, fan engagement, and data migrations for the EHF ecosystem.
 - **[iOS Location Spoofer](https://github.com/acheong08/ios-location-spoofer)** — no-jailbreak iOS location spoofing _(fork)_.
 - **[macOS Keylogger PoC](https://github.com/caseyscarborough/keylogger)** — Event-Tap keylogger for security research _(fork)_.
 
-### 芸 Creative & web portfolio — [legendjerry.com](https://legendjerry.com)
-Before software: music, direction, photography, and client web builds.
+### 芸 Music & creative
+Before software: music, direction, photography, film, and client web builds. Content reel on [Vimeo](https://vimeo.com/315299303) · music on [Spotify](https://open.spotify.com/search/Legend%20Jerry) and [SoundCloud](https://soundcloud.com/legendjerry) · writing at [legendjerry.com](https://legendjerry.com).
 
 **Web & code builds** — [SOLEFOOD NY](https://legendjerry.com/pile_portfolio/solefood-ny/) · [Vienna Masters](https://legendjerry.com/pile_portfolio/vienna-masters/) · [Hors.ly](https://legendjerry.com/pile_portfolio/hors-ly/) · [Diplomatic Standards](https://legendjerry.com/pile_portfolio/diplomatic-standards/) · [Left](https://legendjerry.com/pile_portfolio/left/) · [Zolinger Professional](https://legendjerry.com/pile_portfolio/zolinger-professional/) · [Kusebauch & Nachtschatt](https://legendjerry.com/pile_portfolio/kusebauch-nachtschatt/)
 
