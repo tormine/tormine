@@ -65,7 +65,7 @@ SSO, auth, fan engagement, and data migrations for the EHF ecosystem.
 - **[EHF Fan Engagement](https://eurohandball.com)** — fan-engagement platform (Remix, PostHog).
 - **[EHF Bot](https://bot.eurohandball.com)** — document-aware chatbot (Remix, Pinecone, OpenRouter).
 - **[EHF AI Chatbot](https://chat.eurohandball.com)** — RAG chatbot _(fork of [vercel/ai-chatbot](https://github.com/vercel/ai-chatbot))_.
-- **[EHF TV](https://ehftv.com)** — HLS streaming API client (1,000+ handball videos).
+- **[EHF TV](https://ehftv.com)** — HLS streaming API client (10,000+ handball videos).
 - **[IDCS → Authentik migration](https://eurohandball.com)** — Oracle IDCS → Authentik user/group/app ETL, plus Eloqua/Iubenda consent (11.7M+ records) and PhotoShelter integration.
 - **[Login load-test suite](https://eurohandball.com)** — Playwright load tests for eurohandball.com login.
 
