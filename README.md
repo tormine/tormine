@@ -85,7 +85,7 @@ SSO, auth, fan engagement, and data migrations for the EHF ecosystem.
 - **[macOS Keylogger PoC](https://github.com/caseyscarborough/keylogger)** — Event-Tap keylogger for security research _(fork)_.
 
 ### 芸 Music & creative
-Before software: music, direction, photography, film, and client web builds. Content reel on [Vimeo](https://vimeo.com/315299303) · music on [Spotify](https://open.spotify.com/search/Legend%20Jerry) and [SoundCloud](https://soundcloud.com/legendjerry) · writing at [legendjerry.com](https://legendjerry.com).
+Before software: music, direction, photography, film, and client web builds. Content reel on [Vimeo](https://vimeo.com/315299303) · music on [Spotify](https://open.spotify.com/artist/3phdSQHXbCO6PP1VM3iGiw) and [SoundCloud](https://soundcloud.com/legendjerry) · writing at [legendjerry.com](https://legendjerry.com).
 
 **Web & code builds** — [SOLEFOOD NY](https://legendjerry.com/pile_portfolio/solefood-ny/) · [Vienna Masters](https://legendjerry.com/pile_portfolio/vienna-masters/) · [Hors.ly](https://legendjerry.com/pile_portfolio/horsly/) · [Diplomatic Standards](https://legendjerry.com/pile_portfolio/diplomatic-standards/) · [Left](https://legendjerry.com/pile_portfolio/left/) · [Zolinger Professional](https://legendjerry.com/pile_portfolio/zolinger-professional/) · [Kusebauch & Nachtschatt](https://legendjerry.com/pile_portfolio/kusebauch-nachtschatt/)
 
