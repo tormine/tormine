@@ -80,10 +80,10 @@ SSO, auth, fan engagement, and data migrations for the EHF ecosystem.
 ### 基 Models, infra & research
 Models I've trained, plus the serving and infra around them.
 
-- **GPT from scratch** — a transformer implemented and trained end-to-end in raw PyTorch: multi-head self-attention, residual blocks, custom training loop. _(research)_
-- **DistilBERT classifier ensemble** — fine-tuned via HuggingFace Trainer into a 4-model majority-vote ensemble, with a BigQuery-backed labeling + disagreement pipeline. _(research)_
-- **Llama-2-7B fine-tuning** — full fine-tuning pipeline (HF Trainer, mixed precision, gradient accumulation, custom structural tokens). _(research)_
-- **[vLLM serving](https://vllm.ai)** — self-hosted vLLM (Llama-3-8B-Instruct) driving production prompt generation; serving-cluster config.
+- **[GPT from scratch](https://colab.research.google.com/drive/10tVTAmNDq1XMiBPH7Tg7eNIOdBJn189F)** — a transformer implemented and trained end-to-end in raw PyTorch: multi-head self-attention, residual blocks, custom training loop. _(private notebook)_
+- **[DistilBERT classifier ensemble](https://colab.research.google.com/drive/1oWLmGByKqFuMpD9iyRM3kpbRD27jjvmS)** — fine-tuned via HuggingFace Trainer into a 4-model majority-vote ensemble, with a BigQuery-backed labeling + disagreement pipeline. _(private notebook)_
+- **[Llama-2-7B fine-tuning](https://colab.research.google.com/drive/1wIBMCL9qzjxkO43q6K8BOSTBtY-Ot1R-)** — full fine-tuning pipeline (HF Trainer, mixed precision, gradient accumulation, custom structural tokens). _(private notebook)_
+- **[vLLM serving](https://colab.research.google.com/drive/1S5Ff9xN2sH95iV-8HsYojTN1MZZqgAyZ)** — self-hosted vLLM (Llama-3-8B-Instruct) driving production prompt generation. _(private notebook)_
 - **[Typesense HA](https://typesense.org)** — high-availability Typesense deploy on GKE (Docker + Cloud Build).
 - **[LiteLLM Proxy](https://litellm.ai)** — proxy routing Claude/Gemini for Cursor _(built on [litellm](https://github.com/BerriAI/litellm))_.
 - **[iOS Location Spoofer](https://github.com/acheong08/ios-location-spoofer)** — no-jailbreak iOS location spoofing _(fork)_.
