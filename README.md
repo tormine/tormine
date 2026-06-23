@@ -33,7 +33,7 @@ Voice/SMS/email agents that handle support and outbound for businesses.
 - **[Freebot Ads](https://freebot.ai)** — automated Google Ads campaign creation/management.
 - **[Freebot for Business](https://app.freebot.ai)** — Firebase + FreeSWITCH business edition with customer portals.
 - **[FreeShop](https://freeshop.ai)** — AI-avatar live-shopping: photorealistic lip-sync (LatentSync) + ElevenLabs TTS on GPU.
-- **[FreeButter Agents](https://freebutter.ai)** — multi-agent framework _(fork of [frdel/agent-zero](https://github.com/frdel/agent-zero))_.
+- **[FreeButter Agents](https://freebutter.ai)** — multi-agent framework (Python, multi-provider LLM, Docker-isolated tool execution).
 
 ### 品 Products & consumer apps
 - **[Freway](https://freway.ai)** — conversational-commerce site & agent (Next.js 15 / React 19).
@@ -64,7 +64,7 @@ SSO, auth, fan engagement, and data migrations for the EHF ecosystem.
 - **[EHF Auth](https://auth.eurohandball.com)** — Authentik OIDC identity infra (Docker, Postgres, Redis).
 - **[EHF Fan Engagement](https://eurohandball.com)** — fan-engagement platform (Remix, PostHog).
 - **[EHF Bot](https://bot.eurohandball.com)** — document-aware chatbot (Remix, Pinecone, OpenRouter).
-- **[EHF AI Chatbot](https://chat.eurohandball.com)** — RAG chatbot _(fork of [vercel/ai-chatbot](https://github.com/vercel/ai-chatbot))_.
+- **[EHF AI Chatbot](https://chat.eurohandball.com)** — multi-LLM RAG chatbot (Next.js, Vercel AI SDK, Pinecone).
 - **[EHF TV](https://ehftv.com)** — HLS streaming API client (10,000+ handball videos).
 - **[IDCS → Authentik migration](https://eurohandball.com)** — Oracle IDCS → Authentik user/group/app ETL, plus Eloqua/Iubenda consent (11.7M+ records) and PhotoShelter integration.
 - **[Login load-test suite](https://eurohandball.com)** — Playwright load tests for eurohandball.com login.
@@ -74,7 +74,7 @@ SSO, auth, fan engagement, and data migrations for the EHF ecosystem.
 - **[Maps Lead Scraper](https://maps-leads.app)** — landscaping-lead scraper enriched with Gemini + weather.
 - **[Review Scraper](https://review-scraper.app)** — multi-source review scraper + TF-IDF/ML theme extraction.
 - **[LinkedIn Auto-Apply](https://autoapply.app)** — LinkedIn auto-apply bot (Selenium + multi-LLM).
-- **[Browser Job Agent](https://browser-jobs.app)** — Gradio UI for browser agents _(fork of [browser-use/web-ui](https://github.com/browser-use/web-ui))_.
+- **[Browser Job Agent](https://browser-jobs.app)** — Gradio UI for browser agents (Playwright, multi-LLM, persistent sessions).
 - **[Phone Verification](https://phone-verify.app)** — verifies org phone numbers with Vertex AI → Supabase (Cloud Run).
 
 ### 基 Models, infra & research
@@ -84,10 +84,10 @@ Models I've trained, plus the serving and infra around them.
 - **[DistilBERT classifier ensemble](https://colab.research.google.com/drive/1oWLmGByKqFuMpD9iyRM3kpbRD27jjvmS)** — fine-tuned via HuggingFace Trainer into a 4-model majority-vote ensemble, with a BigQuery-backed labeling + disagreement pipeline. _(private notebook)_
 - **[Llama-2-7B fine-tuning](https://colab.research.google.com/drive/1wIBMCL9qzjxkO43q6K8BOSTBtY-Ot1R-)** — full fine-tuning pipeline (HF Trainer, mixed precision, gradient accumulation, custom structural tokens). _(private notebook)_
 - **[vLLM serving](https://colab.research.google.com/drive/1S5Ff9xN2sH95iV-8HsYojTN1MZZqgAyZ)** — self-hosted vLLM (Llama-3-8B-Instruct) driving production prompt generation. _(private notebook)_
-- **[Typesense HA](https://typesense.org)** — high-availability Typesense deploy on GKE (Docker + Cloud Build).
-- **[LiteLLM Proxy](https://litellm.ai)** — proxy routing Claude/Gemini for Cursor _(built on [litellm](https://github.com/BerriAI/litellm))_.
-- **[iOS Location Spoofer](https://github.com/acheong08/ios-location-spoofer)** — no-jailbreak iOS location spoofing _(fork)_.
-- **[macOS Keylogger PoC](https://github.com/caseyscarborough/keylogger)** — Event-Tap keylogger for security research _(fork)_.
+- **[Typesense HA](https://github.com/tormine/typesense)** — high-availability Typesense deploy on GKE (Docker + Cloud Build).
+- **[LiteLLM Proxy](https://github.com/tormine/litellm)** — proxy routing Claude/Gemini for Cursor (OpenRouter / Vertex AI, ngrok).
+- **[iOS Location Spoofer](https://github.com/tormine/ios-location-spoofer)** — no-jailbreak iOS location spoofing via on-device VPN/MITM (Swift + Go).
+- **[macOS Keylogger PoC](https://github.com/tormine/keylogger)** — Event-Tap keylogger for security research (Objective-C).
 
 ### 芸 Music & creative
 Before software: music, direction, photography, film, and client web builds. Content reel on [Vimeo](https://vimeo.com/315299303) · music on [Spotify](https://open.spotify.com/artist/3phdSQHXbCO6PP1VM3iGiw) and [SoundCloud](https://soundcloud.com/legendjerry) · writing at [legendjerry.com](https://legendjerry.com).
