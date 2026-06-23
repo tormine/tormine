@@ -50,6 +50,7 @@ Voice/SMS/email agents that handle support and outbound for businesses.
 - **[Brain](https://nclsjrry.com)** — Obsidian + Bun content engine driving four Twitter voices, LinkedIn, blog, and video scripts.
 - **[Message Concierge](https://hermes.app)** — drafts replies in your voice across iMessage/WhatsApp/Instagram with human approval (MCP).
 - **[LegendJerry Video](https://legendjerry.com)** — portrait → vertical lip-synced music-video pipeline (Fal AI + Gemini/Veo).
+- **[Stefanie](https://forstefanie.com)** — AI-curated marriage-proposal site assembled from Google Photos.
 - **[Resume Optimizer](https://resume-optimizer.app)** — ATS-tailored resume rewriter (Gemini 2.5 + spaCy + ReportLab).
 - **[Real Podcast](https://realpodcast.app)** — open NotebookLM-style podcast generator from documents.
 - **[Theme Generator](https://generatethemes.com)** — LLM theme generator from Reddit, evaluated + stored in Chroma.
@@ -89,10 +90,6 @@ Models I've trained, plus the serving and infra around them.
 - **[macOS Keylogger PoC](https://github.com/tormine/keylogger)** — Event-Tap keylogger for security research (Objective-C).
 
 ### 芸 Music & creative
-Before software: music, direction, photography, film, and client web builds. Content reel on [Vimeo](https://vimeo.com/315299303) · music on [Spotify](https://open.spotify.com/artist/3phdSQHXbCO6PP1VM3iGiw) and [SoundCloud](https://soundcloud.com/legendjerry) · writing at [legendjerry.com](https://legendjerry.com).
+Before software I worked in music, direction, and film — the thread behind the lyrics models, the AI music-video pipeline, and the LegendJerry handle. Reel on [Vimeo](https://vimeo.com/315299303) · music on [Spotify](https://open.spotify.com/artist/3phdSQHXbCO6PP1VM3iGiw) and [SoundCloud](https://soundcloud.com/legendjerry) · more at [legendjerry.com](https://legendjerry.com).
 
-**Web & code builds** — [SOLEFOOD NY](https://legendjerry.com/pile_portfolio/solefood-ny/) · [Vienna Masters](https://legendjerry.com/pile_portfolio/vienna-masters/) · [Hors.ly](https://legendjerry.com/pile_portfolio/horsly/) · [Diplomatic Standards](https://legendjerry.com/pile_portfolio/diplomatic-standards-x-x/) · [Left](https://legendjerry.com/pile_portfolio/left/) · [Zolinger Professional](https://legendjerry.com/pile_portfolio/zolinger-professional/) · [Kusebauch & Nachtschatt](https://legendjerry.com/pile_portfolio/kusebauch-nachtschatt/)
-
-**Music, direction & film** — [When I Land](https://legendjerry.com/pile_portfolio/when-i-land/) · [Back Down](https://legendjerry.com/pile_portfolio/back-down/) · [Knights Parent](https://legendjerry.com/pile_portfolio/knights-parent/) · [Easy Difficulty](https://legendjerry.com/pile_portfolio/easy-difficulty/) · [THAT](https://legendjerry.com/pile_portfolio/that/) · [Linens Interlude](https://legendjerry.com/pile_portfolio/linens-interlude/) · [The Hardest Thing](https://legendjerry.com/pile_portfolio/the-hardest-thing/) · [Out to Space](https://legendjerry.com/pile_portfolio/out-to-space/) · [Murder](https://legendjerry.com/pile_portfolio/murder/) · [Done – The Movie](https://legendjerry.com/pile_portfolio/done/) · [Simple Minds See Black & White…](https://legendjerry.com/pile_portfolio/simple-minds-see-black-white-complex-minds-see-grey/)
-
-> Many of these are private, research-only or not live anymore.
+> Many of these are private, research-only, or not yet live.
