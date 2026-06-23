@@ -4,13 +4,13 @@ Founder of **[OneShot](https://oneshotagent.com)** and **[Freway](https://freway
 I build AI agents that do real work and get paid for it.
 
 - **[OneShot](https://oneshotagent.com)**: the commercial action layer for AI agents. 26+ tools, x402 pay-per-call in USDC on Base, signed receipts, MCP. `240★`
-- **[oneshot-gtm](https://github.com/oneshot-agent/oneshot-gtm)**: open-source GTM agent built on OneShot. `459★`
+- **[oneshot-gtm](https://github.com/oneshot-agent/oneshot-gtm)**: open-source GTM agent built on OneShot. `453★`
 - **[Freway](https://freway.ai)**: conversational-commerce agent "Janine" that closes the sale at checkout. $10.2M revenue closed.
 - **[SoulHunt](https://soulhunt.ai)**: judgement-cloning. AI "souls" that do a person's work autonomously.
 
 Previously: consumer products past 500K users (Butter.us, Video.io), ML & data @ Erste Group ($300B+ assets), PM @ Cloudflare, earlier @ PayPal.
 
-`TypeScript` · `Python` · `LLM agents` · `x402 / on-chain` · `MCP`
+`TypeScript` · `Python` · `LLM agents` · `model training / fine-tuning` · `x402 / on-chain` · `MCP`
 
 [LinkedIn](https://linkedin.com/in/legendjerry) · [@nclsjrry](https://x.com/nclsjrry)
 
@@ -27,11 +27,11 @@ The action layer that lets AI agents pay for and run real-world tasks via x402 (
 ### 話 Freebot — customer-service & outbound AI
 Voice/SMS/email agents that handle support and outbound for businesses.
 
-- **[Freebot](https://freebot.ai)** — core platform (Remix, Supabase, Stripe, Twilio, LangChain, Typesense).
-- **[Freebot Outbound](https://app.freebot.ai)** — outbound across email/SMS/voice (VAPI + Twilio + OpenRouter).
+- **[Freebot](https://freebot.ai)** — core platform (Remix, Supabase, Stripe, Twilio, FreeSWITCH, LangChain, Typesense).
+- **[Freebot Outbound](https://app.freebot.ai)** — outbound across email/SMS/voice (FreeSWITCH + Twilio + OpenRouter).
 - **[Freebot Tasks](https://task-manager.freebot.ai)** — Bun task-runner backend with Docker deploy.
 - **[Freebot Ads](https://freebot.ai)** — automated Google Ads campaign creation/management.
-- **[Freebot for Business](https://app.freebot.ai)** — Firebase + VAPI business edition with customer portals.
+- **[Freebot for Business](https://app.freebot.ai)** — Firebase + FreeSWITCH business edition with customer portals.
 - **[FreeShop](https://freeshop.ai)** — AI-avatar live-shopping: photorealistic lip-sync (LatentSync) + ElevenLabs TTS on GPU.
 - **[FreeButter Agents](https://freebutter.ai)** — multi-agent framework _(fork of [frdel/agent-zero](https://github.com/frdel/agent-zero))_.
 
@@ -77,10 +77,15 @@ SSO, auth, fan engagement, and data migrations for the EHF ecosystem.
 - **[Browser Job Agent](https://browser-jobs.app)** — Gradio UI for browser agents _(fork of [browser-use/web-ui](https://github.com/browser-use/web-ui))_.
 - **[Phone Verification](https://phone-verify.app)** — verifies org phone numbers with Vertex AI → Supabase (Cloud Run).
 
-### 基 Infra, models & research
+### 基 Models, infra & research
+Models I've trained, plus the serving and infra around them.
+
+- **GPT from scratch** — a transformer implemented and trained end-to-end in raw PyTorch: multi-head self-attention, residual blocks, custom training loop. _(research)_
+- **DistilBERT classifier ensemble** — fine-tuned via HuggingFace Trainer into a 4-model majority-vote ensemble, with a BigQuery-backed labeling + disagreement pipeline. _(research)_
+- **Llama-2-7B fine-tuning** — full fine-tuning pipeline (HF Trainer, mixed precision, gradient accumulation, custom structural tokens). _(research)_
+- **[vLLM serving](https://vllm.ai)** — self-hosted vLLM (Llama-3-8B-Instruct) driving production prompt generation; serving-cluster config.
 - **[Typesense HA](https://typesense.org)** — high-availability Typesense deploy on GKE (Docker + Cloud Build).
 - **[LiteLLM Proxy](https://litellm.ai)** — proxy routing Claude/Gemini for Cursor _(built on [litellm](https://github.com/BerriAI/litellm))_.
-- **[vLLM Cluster](https://vllm.ai)** — vLLM serving cluster config.
 - **[iOS Location Spoofer](https://github.com/acheong08/ios-location-spoofer)** — no-jailbreak iOS location spoofing _(fork)_.
 - **[macOS Keylogger PoC](https://github.com/caseyscarborough/keylogger)** — Event-Tap keylogger for security research _(fork)_.
 
