@@ -50,7 +50,6 @@ Voice/SMS/email agents that handle support and outbound for businesses.
 - **[Brain](https://nclsjrry.com)** — Obsidian + Bun content engine driving four Twitter voices, LinkedIn, blog, and video scripts.
 - **[Message Concierge](https://hermes.app)** — drafts replies in your voice across iMessage/WhatsApp/Instagram with human approval (MCP).
 - **[LegendJerry Video](https://legendjerry.com)** — portrait → vertical lip-synced music-video pipeline (Fal AI + Gemini/Veo).
-- **[Stefanie](https://forstefanie.com)** — AI-curated marriage-proposal site assembled from Google Photos.
 - **[Resume Optimizer](https://resume-optimizer.app)** — ATS-tailored resume rewriter (Gemini 2.5 + spaCy + ReportLab).
 - **[Real Podcast](https://realpodcast.app)** — open NotebookLM-style podcast generator from documents.
 - **[Theme Generator](https://generatethemes.com)** — LLM theme generator from Reddit, evaluated + stored in Chroma.
