@@ -89,6 +89,6 @@ Models I've trained, plus the serving and infra around them.
 - **[macOS Keylogger PoC](https://github.com/tormine/keylogger)** — Event-Tap keylogger for security research (Objective-C).
 
 ### 芸 Music & creative
-Before software I worked in music, direction, and film — the thread behind the lyrics models, the AI music-video pipeline, and the LegendJerry handle. Reel on [Vimeo](https://vimeo.com/315299303) · music on [Spotify](https://open.spotify.com/artist/3phdSQHXbCO6PP1VM3iGiw) and [SoundCloud](https://soundcloud.com/legendjerry) · more at [legendjerry.com](https://legendjerry.com).
+Before software I worked in music, direction, and film — the thread behind the lyrics models, the AI music-video pipeline, and the LegendJerry handle. Reel on [Vimeo](https://vimeo.com/315299303) · music on [SoundCloud](https://soundcloud.com/legendjerry) · more at [legendjerry.com](https://legendjerry.com).
 
 > Many of these are private, research-only, or not yet live.
