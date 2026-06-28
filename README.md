@@ -19,7 +19,7 @@ Previously: consumer products past 500K users (Butter.us, Video.io), ML & data @
 ### 商 OneShot — the agent commerce stack
 The action layer that lets AI agents pay for and run real-world tasks via x402 (USDC on Base).
 
-- **[OneShot core](https://oneshotagent.com)** — 35+ tools across MCP + REST: email, SMS, voice, research, enrichment, commerce, browser automation, signed receipts. x402 payment middleware (`@x402/evm`), Coinbase CDP agent wallets, Virtuals ACP marketplace protocol, EVM + TON, E2B compute sandboxes. Nx/Bun monorepo on Drizzle + Cloud SQL, OpenRouter multi-LLM (Claude Opus 4 + Gemini 3).
+- **[OneShot core](https://oneshotagent.com)** — 35+ tools across MCP + REST: email, SMS, voice, research, enrichment, commerce, browser automation, signed receipts. x402 payment middleware (`@x402/evm`), Coinbase CDP agent wallets, Virtuals ACP marketplace protocol, EVM + TON, self-built compute sandboxes. Nx/Bun monorepo on Drizzle + Cloud SQL, OpenRouter multi-LLM (Claude Opus 4 + Gemini 3).
 - **[oneshot-sdk](https://github.com/oneshot-agent/sdk)** — `@oneshot-agent/sdk`, the TypeScript SDK with built-in x402 payments (ethers.js). _(open source)_
 - **[oneshot-gtm](https://github.com/oneshot-agent/oneshot-gtm)** — terminal CLI (Commander) + local React 19 dashboard (TanStack, Tailwind 4); Turbo/Bun monorepo. A pay-per-result GTM agent for technical founders. _(open source)_
 - **[agent-skills](https://github.com/oneshot-agent/agent-skills)** — teach 70+ coding agents (Claude Code, Cursor, Codex) to use OneShot. _(open source)_
