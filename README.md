@@ -7,7 +7,7 @@ I build AI agents that do real work and get paid for it.
 - **[oneshot-gtm](https://github.com/oneshot-agent/oneshot-gtm)**: open-source GTM agent built on OneShot. `453★`
 - **[Freway](https://freway.ai)**: conversational-commerce agent "Janine" that closes the sale at checkout. $10.2M revenue closed.
 - **[SoulHunt](https://soulhunt.ai)**: judgement-cloning. AI "souls" that do a person's work autonomously.
-- **[dev-runner](https://github.com/oneshot-agent/oneshot-gtm/pulls?q=is%3Apr+is%3Amerged+head%3Aai%2Fgtm)**: my autonomous coding factory, issue in, PR out. Agents pick up GitHub issues and fix them in isolated worktrees, and a model from a different vendor reviews each diff. Before a PR opens, the branch is re-tested against a clean baseline and blocked if it touches secrets or CI. **249 agent PRs merged** across three repos since Aug 28, 2026. _(code private; the link shows the agent PRs in oneshot-gtm, each with its verify results)_
+- **[dev-runner](https://github.com/oneshot-agent/oneshot-gtm/pulls?q=is%3Apr+is%3Amerged+head%3Aai%2Fgtm)**: coding factory. GitHub issue → Hermes kanban → agents in git worktrees → cross-vendor review → merge-base re-verify + fail-closed secret/CI guard → PR. `249 PRs merged`
 
 Previously: consumer products past 500K users (Butter.us, Video.io), ML & data @ Erste Group ($300B+ assets), PM @ Cloudflare, earlier @ PayPal.
 
